@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    background-color: #012a4a;
+    animation: moving 5s linear 1s 1 forwards running;
+
+}
+
+@keyframes moving {
+    0% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 0;
+        left: 3px;
+    }
+
+    25% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 0;
+        left: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 0;
+        left: 50%;
+    }
+
+    75% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 0;
+        left: 75%;
+    }
+
+    100% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 0;
+        left: 1403px;
+    }
+}
+
+.box2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    position: absolute;
+    top: 155px;
+    right: 2px;
+    background-color: #a9d6e5;
+    animation: moving2 5s linear 6s 1 forwards running;
+
+}
+
+@keyframes moving2 {
+    0% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 155px;
+        right: 2px;
+    }
+
+    25% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 155px;
+        right: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 155px;
+        right: 50%;
+    }
+
+    75% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 155px;
+        right: 75%;
+    }
+
+    100% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 155px;
+        right: 1310px;
+    }
+}
+
+
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    left: 3px;
+    background-color: #012a4a;
+    animation: moving3 5s linear 12s 1 forwards running;
+
+}
+
+@keyframes moving3 {
+    0% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 310px;
+        left: 3px;
+    }
+
+    25% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 310px;
+        left: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 310px;
+        left: 50%;
+    }
+
+    75% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 310px;
+        left: 75%;
+    }
+
+    100% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 310px;
+        left: 1403px;
+    }
+}
+
+
+.box4 {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    position: absolute;
+    top: 465px;
+    right: 2px;
+    background-color: #a9d6e5;
+    animation: moving4 5s linear 18s 1 forwards running;
+
+}
+
+@keyframes moving4 {
+    0% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 465px;
+        right: 2px;
+    }
+
+    25% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 465px;
+        right: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 465px;
+        right: 50%;
+    }
+
+    75% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 465px;
+        right: 75%;
+    }
+
+    100% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 465px;
+        right: 1310px;
+    }
+}
+
+.box5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    top: 620px;
+    left: 3px;
+    background-color: #012a4a;
+    animation: moving5 5s linear 24s 1 forwards running;
+
+}
+
+@keyframes moving5 {
+    0% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 620px;
+        left: 3px;
+    }
+
+    25% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 620px;
+        left: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 620px;
+        left: 50%;
+    }
+
+    75% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 620px;
+        left: 75%;
+    }
+
+    100% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 620px;
+        left: 1403px;
+    }
+}
+
+
+.box6 {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    position: absolute;
+    top: 775px;
+    right: 2px;
+    background-color: #a9d6e5;
+    animation: moving6 5s linear 30s 1 forwards running;
+
+}
+
+@keyframes moving6 {
+    0% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 775px;
+        right: 2px;
+    }
+
+    25% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 775px;
+        right: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 775px;
+        right: 50%;
+    }
+
+    75% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 775px;
+        right: 75%;
+    }
+
+    100% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 775px;
+        right: 1310px;
+    }
+}
+
+
+.box7 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    top: 930px;
+    left: 3px;
+    background-color: #012a4a;
+    animation: moving7 5s linear 36s 1 forwards running;
+
+}
+
+@keyframes moving7 {
+    0% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 930px;
+        left: 3px;
+    }
+
+    25% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 930px;
+        left: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 930px;
+        left: 50%;
+    }
+
+    75% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 930px;
+        left: 75%;
+    }
+
+    100% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 930px;
+        left: 1403px;
+    }
+}
+
+.box8 {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1085px;
+    right: 2px;
+    background-color: #a9d6e5;
+    animation: moving8 5s linear 42s 1 forwards running;
+
+}
+
+@keyframes moving8 {
+    0% {
+        width: 60px;
+        height: 60px;
+        background-color: #a9d6e5;
+        top: 1085px;
+        right: 2px;
+    }
+
+    25% {
+        width: 120px;
+        height: 120px;
+        background-color: #468faf;
+        top: 1085px;
+        right: 25%;
+    }
+
+    50% {
+        width: 60px;
+        height: 200px;
+        background-color: #61a5c2;
+        top: 1085px;
+        right: 50%;
+    }
+
+    75% {
+        width: 200px;
+        height: 60px;
+        background-color: #014f86;
+        top: 1085px;
+        right: 75%;
+    }
+
+    100% {
+        width: 150px;
+        height: 150px;
+        background-color: #012a4a;
+        top: 1085px;
+        right: 1310px;
+    }
+}
